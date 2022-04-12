@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor{
+    height: 300px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(171, 175, 209);
+    padding: 30px 50px;
+
+}
+img{
+    height: 300px;
+}
+.texto{
+    display: flex;
+    flex-direction: column; 
+    height: 100%;
+    flex-grow: 1;
+}
+.descripcion{
+    display: flex;
+    flex-grow: 1;
+}
