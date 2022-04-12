@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.primero{
+    background-color: rgb(166, 159, 207);
+    height: 200px;
+    width: 200px;
+}
+.segundo{
+    background-color: rgb(130, 116, 207);
+    height: 200px;
+    flex-grow: 1;
+}
+.tercero{
+    background-color: rgb(105, 87, 207);
+    height: 200px;
+    flex-grow: 1;
+}
+.cuarto{
+    background-color: rgb(70, 45, 207);
+    height: 200px;
+    width: 200px;
+}

@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.primero{
+    background-color: rgb(166, 159, 207);
+    height: 200px;
+    flex-grow: 2;
+}
+.segundo{
+    background-color: rgb(130, 116, 207);
+    height: 200px;
+    flex-grow: 1;
+}
+.tercero{
+    background-color: rgb(105, 87, 207);
+    height: 200px;
+    flex-grow: 1;
+}
