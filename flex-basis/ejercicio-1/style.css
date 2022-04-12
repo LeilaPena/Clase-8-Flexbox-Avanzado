@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.primero {
+  background-color: rgb(166, 159, 207);
+  height: 200px;
+  flex-basis: 25%;
+}
+.segundo {
+  background-color: rgb(130, 116, 207);
+  height: 200px;
+  flex-basis: 25%;
+}
+.tercero {
+  background-color: rgb(105, 87, 207);
+  height: 200px;
+  flex-basis: 25%;
+}
+.cuarto {
+  background-color: rgb(70, 45, 207);
+  height: 200px;
+  flex-basis: 25%;
+}
+.quinto {
+  background-color: rgb(45, 17, 202);
+  height: 200px;
+  flex-basis: 25%;
+  flex-grow: 1;
+}
